@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100%;
+}
+
+a, a:hover, a:active {
+   font-weight: bold;
+    color: #5f28a7;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    padding: 5em;
+    margin-top: 1em;
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    border-radius: 4px;
+}
+
+
+.btn{
+    display: block;
+    margin: 1em auto;
+    min-width: 200px;
+    
+}
+
+.scoreborad {
+    display: block;
+    margin: 1em auto;
+    border-bottom: 1px solid lightgray;
+    padding: .5em 0;
+}
+
+.col {
+    font-size: large;
+}
+
+.timer{
+    font-weight: bold;
+}
